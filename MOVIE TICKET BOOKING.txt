@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My page</title>
+</head>
+<body>
+<center>
+  <header>
+    <h1> BOMMA SHOW</h1>
+  </header>
+</center>
+  <section>
+    <h2>🎬 Available Seats</h2>
+    <table border="1" width="100%" cellpadding="10">
+      <tr>
+        <th>Seat No</th>
+        <th>Status</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td><a href="#Sister Death">Sister Death</a></td>
+        <td>Available</td>
+        <td>₹250</td>
+      </tr>
+      <tr>
+        <td><a href="#Evil Death Rise">Evil Death Rise</a></td>
+        <td>Booked</td>
+        <td>₹250</td>
+      </tr>
+      <tr>
+        <td><a href="#Cobweb">Cobweb</a></td>
+        <td>Available</td>
+        <td>₹200</td>
+      </tr>
+    </table>
+  </section>
+ <hr>
+  <section id="Sister Death">
+    <h2>🔍 Sister Death Details</h2>
+    <article>
+      <img src="https://resizing.flixster.com/66N-OK7J-W51MgBV0OzU-KnPGLU=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25556709_v_h9_ab.jpg" alt="Movie A1" width="200">
+      <p><strong>Status:</strong> Available</p>
+      <p><strong>Price:</strong> ₹250</p>
+      <p><strong>Row:</strong> A</p>
+      <form>
+        <label>Name: <input type="text" name="name" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <input type="submit" value="Book Ticket">
+      </form>
+    </article>
+  </section>
+ <hr>
+  <section id="Evil Death Rise">
+    <h2>🔍 Evil Death Rise Details</h2>
+    <article>
+      <img src="https://m.media-amazon.com/images/S/pv-target-images/4e4156d17d119400ac7abc6f4ed2a0e9a1f08030c523bc19f35e5b3f8faacdf0.jpg" alt="Movie A2" width="200">
+      <p><strong>Status:</strong> Booked</p>
+      <p><strong>Price:</strong> ₹250</p>
+      <p><strong>Row:</strong> A</p>
+      <p>This seat is already booked.</p>
+    </article>
+  </section>
+<hr>
+  <section id="Cobweb">
+    <h2>🔍 Cobweb Details</h2>
+    <article>
+      <img src="https://m.media-amazon.com/images/M/MV5BNDY5ZGIwZjUtMmVhZi00OTBlLTk5ZTctOTY3Y2VlMGM1ZjI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie B1" width="200">
+      <p><strong>Status:</strong> Available</p>
+      <p><strong>Price:</strong> ₹200</p>
+      <p><strong>Row:</strong> B</p>
+      <form>
+        <label>Name: <input type="text" name="name" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <input type="submit" value="Book Ticket">
+      </form>
+    </article>
+  </section>
+   <hr>
+  <footer>
+    <h3>📞 Contact Us</h3>
+    <p>Email: support@moviebooking.com</p>
+    <p>Phone: +91-98765-43210</p>
+
+    <h4>🏢 Address</h4>
+    <p>
+      MovieBooking Pvt. Ltd.<br>
+      2nd Floor, Cineplex Mall,<br>
+      Chennai, Tamil Nadu - 600028
+    </p>
+
+    <h4>🌐 Follow Us</h4>
+    <p>
+      🔵 Facebook | 🟣 Instagram | 🔴 YouTube | 🔗 Twitter
+    </p>
+
+    <p>&copy; 2025 MovieBooking.com. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
